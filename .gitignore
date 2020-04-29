@@ -1,0 +1,14 @@
+# Mac OS
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+# Tennis Unity env
+Tennis.app
