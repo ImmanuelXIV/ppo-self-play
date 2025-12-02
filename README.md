@@ -1,6 +1,10 @@
 # Reinforcement Learning | Multi-Agent RL | Self-Play | Proximal Policy Optimization Algorithm (PPO) agent | Unity Tennis environment
 ---
-This repository, shows how to implement and train an actor-critic [PPO](https://arxiv.org/abs/1707.06347) (Proximal Policy Optimization) Reinforcement Learning agent to play Tennis against itself. The Unity simulation environment is called Tennis and rather similar to environments depicted [here](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md).
+This repository, shows how to implement and train an actor-critic [PPO](https://arxiv.org/abs/1707.06347) (Proximal Policy Optimization) Reinforcement Learning agent to play Tennis against itself. Have a look at a trained DDPG agent underneath.
+
+<img src="imgs/tennis-self-play.gif\" width="450" align="center" title="Tennis Unity environment">
+
+Checkout similar environments [here](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md).
 
 In this README.md you'll see how to install dependencies and run the code on your own machine. To understand the learning algorithm PPO checkout the `Tennis.ipynb` notebook.
 
@@ -38,10 +42,6 @@ The task is episodic, and in order to solve the environment, the agents must get
 - This yields a single score for each episode.
 
 The environment is considered solved, when the average (over 100 episodes) of those scores is at least +0.5.
-Have a look at a trained DDPG agent underneath.
-
-<img src="imgs/tennis-self-play.gif\" width="450" align="center" title="Tennis Unity environment">
-
 
 ## Dependencies
 
